@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User should login successfully with a valid account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e05736fd-4fb6-42ab-af78-05c054541e2b</testCaseGuid>
+</TestCaseEntity>

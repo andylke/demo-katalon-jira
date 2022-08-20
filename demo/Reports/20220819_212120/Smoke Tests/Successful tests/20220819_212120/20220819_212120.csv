@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Successful tests,Chrome 104.0.5112.102,,,2022-08-19 21:21:29,2022-08-19 21:22:07,38.080s,PASSED
+,,,,,,,
+Test Cases/UI Testing/Tests/Login Test/User should login successfully with a valid account,Chrome 104.0.5112.102,,,2022-08-19 21:21:29,2022-08-19 21:21:46,16.558s,PASSED
+Start listener action : beforeTestcase,Chrome 104.0.5112.102,,,2022-08-19 21:21:29,2022-08-19 21:21:33,3.451s,ERROR
+"callTestCase(findTestCase(""UI Testing/Pages/Open Browser/Open the Login page""), [:], STOP_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-19 21:21:33,2022-08-19 21:21:37,3.857s,PASSED
+"verifyTextPresent(""Welcome to JIRA"", false)",Chrome 104.0.5112.102,,,2022-08-19 21:21:37,2022-08-19 21:21:38,0.808s,PASSED
+"callTestCase(findTestCase(""UI Testing/Pages/Login Page/Login with username and password""), [""username"":LoginUsername, ""password"":LoginPassword], STOP_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-19 21:21:38,2022-08-19 21:21:43,5.608s,PASSED
+"verifyTextPresent(""System Dashboard"", false)",Chrome 104.0.5112.102,,,2022-08-19 21:21:43,2022-08-19 21:21:45,1.741s,PASSED
+Start listener action : afterTestcase,Chrome 104.0.5112.102,,,2022-08-19 21:21:45,2022-08-19 21:21:46,0.737s,PASSED
+,,,,,,,
+Test Cases/UI Testing/Tests/Create Issue Test/User should be able to create issue successfully,Chrome 104.0.5112.102,,,2022-08-19 21:21:46,2022-08-19 21:22:07,21.264s,PASSED
+Start listener action : beforeTestcase,Chrome 104.0.5112.102,,,2022-08-19 21:21:46,2022-08-19 21:21:48,1.573s,ERROR
+"callTestCase(findTestCase(""UI Testing/Pages/Open Browser/Open the Login page""), [:], STOP_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-19 21:21:48,2022-08-19 21:21:52,3.986s,PASSED
+"callTestCase(findTestCase(""UI Testing/Pages/Login Page/Login with username and password""), [""username"":LoginUsername, ""password"":LoginPassword], STOP_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-19 21:21:52,2022-08-19 21:21:57,5.226s,PASSED
+"callTestCase(findTestCase(""UI Testing/Pages/Master Page/Open the Create Issue form""), [:], STOP_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-19 21:21:57,2022-08-19 21:22:00,2.496s,PASSED
+"callTestCase(findTestCase(""UI Testing/Pages/Create Issue Page/Create a new issue with these information""), [""project"":project, ""issueType"":issueType, ""priority"":priority, ""description"":description, ""summary"":summary], STOP_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-19 21:22:00,2022-08-19 21:22:07,6.952s,PASSED
+Start listener action : afterTestcase,Chrome 104.0.5112.102,,,2022-08-19 21:22:07,2022-08-19 21:22:07,0.673s,PASSED

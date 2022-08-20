@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>elRoot</name>
+   <tag></tag>
+   <elementGuidId>7c1cb16f-e2ac-49c6-b068-0382c8a976e9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;create-issue-dialog&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;create-issue-dialog&quot;]</value>
+      <webElementGuid>04612187-a31e-4379-8c4c-ced56bcfceb6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

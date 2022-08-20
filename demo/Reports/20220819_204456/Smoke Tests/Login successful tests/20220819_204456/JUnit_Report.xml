@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login successful tests" time="15.767" tests="1" failures="0" errors="0">
+   <testsuite name="Login successful tests" tests="1" failures="0" errors="0" time="15.767" skipped="0" timestamp="2022-08-19 20:45:06" hostname="AMKELIAN - N5088.slake.sssb.com" id="Test Suites/Smoke Tests/Login successful tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\andylke\\projects\\andylke\\demo-katalon-jira\\demo\\Reports\\20220819_204456\\Smoke Tests\\Login successful tests\\20220819_204456"/>
+         <property name="logFiles" value="D:\\andylke\\projects\\andylke\\demo-katalon-jira\\demo\\Reports\\20220819_204456\\Smoke Tests\\Login successful tests\\20220819_204456\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AMKELIAN - N5088.slake.sssb.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="browser" value="Chrome 104.0.5112.102"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="c07f82b86d923983545d1d299eff0417"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UI Testing/Tests/Login Test/User should login successfully with a valid account" time="15.519" classname="Test Cases/UI Testing/Tests/Login Test/User should login successfully with a valid account" status="PASSED">
+         <system-out><![CDATA[2022-08-19 20:45:06 - [TEST_CASE][PASSED] - Test Cases/UI Testing/Tests/Login Test/User should login successfully with a valid account: Test Cases/UI Testing/Tests/Login Test/User should login successfully with a valid account
+
+2022-08-19 20:45:06 - [TEST_STEP][ERROR] - Start listener action : beforeTestcase: groovy.lang.MissingPropertyException: No such property: url for class: internal.GlobalVariable
+	at TestListener.beforeTestcase(TestListener.groovy:38)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1660913096599.run(TempTestSuite1660913096599.groovy:36)
+
+
+2022-08-19 20:45:06 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("API Testing")): null
+
+2022-08-19 20:45:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-19 20:45:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-19 20:45:06 - [MESSAGE][INFO] - Action delay is set to 500 milliseconds
+
+2022-08-19 20:45:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-19 20:45:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-08-19 20:45:10 - [MESSAGE][PASSED] - Current window maximized
+
+2022-08-19 20:45:10 - [TEST_STEP][ERROR] - navigateToUrl(url): groovy.lang.MissingPropertyException: No such property: url for class: internal.GlobalVariable
+	at TestListener.beforeTestcase(TestListener.groovy:38)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1660913096599.run(TempTestSuite1660913096599.groovy:36)
+
+
+2022-08-19 20:45:10 - [MESSAGE][ERROR] - groovy.lang.MissingPropertyException: No such property: url for class: internal.GlobalVariable
+	at TestListener.beforeTestcase(TestListener.groovy:38)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1660913096599.run(TempTestSuite1660913096599.groovy:36)
+
+
+2022-08-19 20:45:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UI Testing/Pages/Open Browser/Open the Login page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UI Testing/Pages/Open Browser/Open the Login page' successfully
+
+2022-08-19 20:45:10 - [TEST_CASE][PASSED] - Test Cases/UI Testing/Pages/Open Browser/Open the Login page: Test Cases/UI Testing/Pages/Open Browser/Open the Login page
+
+2022-08-19 20:45:10 - [TEST_STEP][PASSED] - openBrowser(LoginUrl): Browser is opened with url: 'http://localhost:8080/login.jsp'
+
+2022-08-19 20:45:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-08-19 20:45:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-19 20:45:11 - [MESSAGE][INFO] - Action delay is set to 500 milliseconds
+
+2022-08-19 20:45:14 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:8080/login.jsp'
+
+2022-08-19 20:45:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UI Testing/Pages/Open Browser/Open the Login page' successfully
+
+2022-08-19 20:45:14 - [TEST_STEP][PASSED] - verifyTextPresent("Welcome to JIRA", false): Text 'Welcome to JIRA' is present on page 
+
+2022-08-19 20:45:14 - [MESSAGE][PASSED] - Text 'Welcome to JIRA' is present on page 
+
+2022-08-19 20:45:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UI Testing/Pages/Login Page/Login with username and password"), ["username":LoginUsername, "password":LoginPassword], STOP_ON_FAILURE): Call Test Case 'Test Cases/UI Testing/Pages/Login Page/Login with username and password' successfully
+
+2022-08-19 20:45:14 - [TEST_CASE][PASSED] - Test Cases/UI Testing/Pages/Login Page/Login with username and password: Test Cases/UI Testing/Pages/Login Page/Login with username and password
+
+2022-08-19 20:45:14 - [TEST_STEP][PASSED] - setText(findTestObject("UI Test Objects/Pages/Login Page/elUsername"), username): Text 'admin' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elUsername'
+
+2022-08-19 20:45:16 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elUsername'
+
+2022-08-19 20:45:16 - [TEST_STEP][PASSED] - setText(findTestObject("UI Test Objects/Pages/Login Page/elPassword"), password): Text 'admin@123' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword'
+
+2022-08-19 20:45:18 - [MESSAGE][PASSED] - Text 'admin@123' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword'
+
+2022-08-19 20:45:18 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Objects/Pages/Login Page/elLogin")): Object: 'Object Repository/UI Test Objects/Pages/Login Page/elLogin' is clicked on
+
+2022-08-19 20:45:20 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Objects/Pages/Login Page/elLogin' is clicked on
+
+2022-08-19 20:45:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UI Testing/Pages/Login Page/Login with username and password' successfully
+
+2022-08-19 20:45:20 - [TEST_STEP][PASSED] - verifyTextPresent("System Dashboard", false): Text 'System Dashboard' is present on page 
+
+2022-08-19 20:45:21 - [MESSAGE][PASSED] - Text 'System Dashboard' is present on page 
+
+2022-08-19 20:45:21 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2022-08-19 20:45:21 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("API Testing")): null
+
+2022-08-19 20:45:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-08-19 20:45:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-08-19 20:45:06 - [TEST_SUITE][PASSED] - Login successful tests: Test Cases/UI Testing/Tests/Login Test/User should login successfully with a valid account]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

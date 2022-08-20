@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login successful tests,Chrome 104.0.5112.102,,,2022-08-19 20:40:53,2022-08-19 20:41:14,21.182s,PASSED
+,,,,,,,
+Test Cases/UI Testing/Tests/Login Test/User should login successfully with a valid account,Chrome 104.0.5112.102,,,2022-08-19 20:40:54,2022-08-19 20:41:14,20.938s,PASSED
+Start listener action : beforeTestcase,Chrome 104.0.5112.102,,,2022-08-19 20:40:54,2022-08-19 20:40:57,3.425s,ERROR
+"callTestCase(findTestCase(""UI Testing/Pages/Open Browser/Open the Login page""), [:], STOP_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-19 20:40:57,2022-08-19 20:41:01,3.697s,PASSED
+"verifyTextPresent(""Welcome to JIRA"", false)",Chrome 104.0.5112.102,,,2022-08-19 20:41:01,2022-08-19 20:41:02,0.561s,PASSED
+"callTestCase(findTestCase(""UI Testing/Pages/Login Page/Login with username and password""), [""username"":LoginUsername, ""password"":LoginPassword], STOP_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-19 20:41:02,2022-08-19 20:41:12,9.966s,PASSED
+"verifyTextPresent(""System Dashboard"", false)",Chrome 104.0.5112.102,,,2022-08-19 20:41:12,2022-08-19 20:41:14,2.159s,PASSED
+Start listener action : afterTestcase,Chrome 104.0.5112.102,,,2022-08-19 20:41:14,2022-08-19 20:41:14,0.729s,PASSED

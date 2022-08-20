@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Successful tests,Chrome 104.0.5112.102,,,2022-08-20 10:17:23,2022-08-20 10:18:42,1m - 19.049s,PASSED
+,,,,,,,
+Test Cases/UI Testing/Tests/Login Test/User should login successfully with a valid account,Chrome 104.0.5112.102,,,2022-08-20 10:17:23,2022-08-20 10:17:42,18.431s,PASSED
+Start listener action : beforeTestcase,Chrome 104.0.5112.102,,,2022-08-20 10:17:23,2022-08-20 10:17:27,3.461s,ERROR
+"callTestCase(findTestCase(""UI Testing/Pages/Open Browser/Open the Login page""), [:], STOP_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-20 10:17:27,2022-08-20 10:17:31,3.647s,PASSED
+"verifyTextPresent(""Welcome to JIRA"", false)",Chrome 104.0.5112.102,,,2022-08-20 10:17:31,2022-08-20 10:17:31,0.549s,PASSED
+"callTestCase(findTestCase(""UI Testing/Pages/Login Page/Login with username and password""), [""username"":LoginUsername, ""password"":LoginPassword], STOP_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-20 10:17:31,2022-08-20 10:17:37,5.387s,PASSED
+"verifyTextPresent(""System Dashboard"", false)",Chrome 104.0.5112.102,,,2022-08-20 10:17:37,2022-08-20 10:17:38,1.314s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-20 10:17:38,2022-08-20 10:17:41,3.018s,PASSED
+Start listener action : afterTestcase,Chrome 104.0.5112.102,,,2022-08-20 10:17:41,2022-08-20 10:17:42,0.685s,PASSED
+,,,,,,,
+Test Cases/UI Testing/Tests/Create Issue Test/User should be able to create issue successfully,Chrome 104.0.5112.102,,,2022-08-20 10:17:42,2022-08-20 10:18:07,25.765s,PASSED
+Start listener action : beforeTestcase,Chrome 104.0.5112.102,,,2022-08-20 10:17:42,2022-08-20 10:17:43,1.478s,ERROR
+"callTestCase(findTestCase(""UI Testing/Pages/Open Browser/Open the Login page""), [:], STOP_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-20 10:17:43,2022-08-20 10:17:47,3.096s,PASSED
+"callTestCase(findTestCase(""UI Testing/Pages/Login Page/Login with username and password""), [""username"":LoginUsername, ""password"":LoginPassword], STOP_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-20 10:17:47,2022-08-20 10:17:52,5.381s,PASSED
+"callTestCase(findTestCase(""UI Testing/Pages/Master Page/Open the Create Issue form""), [:], STOP_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-20 10:17:52,2022-08-20 10:17:55,2.637s,PASSED
+"callTestCase(findTestCase(""UI Testing/Pages/Create Issue Page/Create a new issue with these information""), [""summary"":""Demo summary""], STOP_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-20 10:17:55,2022-08-20 10:18:02,7.460s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-20 10:18:02,2022-08-20 10:18:05,3.014s,PASSED
+Start listener action : afterTestcase,Chrome 104.0.5112.102,,,2022-08-20 10:18:05,2022-08-20 10:18:07,2.422s,PASSED
+,,,,,,,
+Test Cases/UI Testing/Tests/Search Issue Test/User should be able to search and verify issue content,Chrome 104.0.5112.102,,,2022-08-20 10:18:07,2022-08-20 10:18:42,34.613s,PASSED
+Start listener action : beforeTestcase,Chrome 104.0.5112.102,,,2022-08-20 10:18:07,2022-08-20 10:18:09,1.706s,ERROR
+"callTestCase(findTestCase(""UI Testing/Pages/Open Browser/Open the Login page""), [:], STOP_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-20 10:18:10,2022-08-20 10:18:13,3.714s,PASSED
+"callTestCase(findTestCase(""UI Testing/Pages/Login Page/Login with username and password""), [""username"":LoginUsername, ""password"":LoginPassword], STOP_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-20 10:18:13,2022-08-20 10:18:19,5.293s,PASSED
+"callTestCase(findTestCase(""UI Testing/Pages/Master Page/Open the Search for issue page""), [:], STOP_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-20 10:18:19,2022-08-20 10:18:23,4.880s,PASSED
+"issue_summary = ""Demo summary""",Chrome 104.0.5112.102,,,2022-08-20 10:18:23,2022-08-20 10:18:23,0.001s,PASSED
+"jql = ""text~""Demo summary""""",Chrome 104.0.5112.102,,,2022-08-20 10:18:23,2022-08-20 10:18:23,0.001s,PASSED
+"callTestCase(findTestCase(""UI Testing/Pages/Search Issue Page/Search issues using jql""), [""jql"":jql], STOP_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-20 10:18:23,2022-08-20 10:18:29,5.508s,PASSED
+"callTestCase(findTestCase(""UI Testing/Pages/Search Issue Page/Simple Issue List/Open the issue having specified summary""), [""issue_summary"":issue_summary], STOP_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-20 10:18:29,2022-08-20 10:18:37,8.300s,PASSED
+"callTestCase(findTestCase(""UI Testing/Pages/Search Issue Page/Issue Content/Verify opening issue content""), [""issue_summary"":issue_summary], STOP_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-20 10:18:37,2022-08-20 10:18:38,1.060s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-20 10:18:38,2022-08-20 10:18:41,3.010s,PASSED
+Start listener action : afterTestcase,Chrome 104.0.5112.102,,,2022-08-20 10:18:41,2022-08-20 10:18:42,0.727s,PASSED

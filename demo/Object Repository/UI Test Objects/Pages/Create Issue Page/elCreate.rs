@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>elCreate</name>
+   <tag></tag>
+   <elementGuidId>8d9c1183-e771-4d58-b219-4fcc3ade04d1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;create-issue-submit&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;create-issue-submit&quot;]</value>
+      <webElementGuid>a020e26b-5c41-4f1e-a07b-f4cf265a820d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>elFlag</name>
+   <tag></tag>
+   <elementGuidId>f86e9b3f-c651-40e5-b4c9-d1cd7b23b7be</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;aui-flag-container&quot;]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;aui-flag-container&quot;]/div/div</value>
+      <webElementGuid>9925a223-16f3-43a9-b017-95fb34863502</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

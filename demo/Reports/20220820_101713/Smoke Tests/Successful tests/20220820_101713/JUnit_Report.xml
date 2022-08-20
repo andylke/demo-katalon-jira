@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Successful tests" time="79.049" tests="3" failures="0" errors="0">
+   <testsuite name="Successful tests" tests="3" failures="0" errors="0" time="79.049" skipped="0" timestamp="2022-08-20 10:17:23" hostname="AMKELIAN - N5088.mshome.net" id="Test Suites/Smoke Tests/Successful tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\andylke\\projects\\andylke\\demo-katalon-jira\\demo\\Reports\\20220820_101713\\Smoke Tests\\Successful tests\\20220820_101713"/>
+         <property name="logFiles" value="D:\\andylke\\projects\\andylke\\demo-katalon-jira\\demo\\Reports\\20220820_101713\\Smoke Tests\\Successful tests\\20220820_101713\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AMKELIAN - N5088.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="browser" value="Chrome 104.0.5112.102"/>
+         <property name="hostAddress" value="172.23.128.1"/>
+         <property name="sessionId" value="91435c0c9d57bfcb767c6e3ce43bcad4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UI Testing/Tests/Login Test/User should login successfully with a valid account" time="18.431" classname="Test Cases/UI Testing/Tests/Login Test/User should login successfully with a valid account" status="PASSED">
+         <system-out><![CDATA[2022-08-20 10:17:23 - [TEST_CASE][PASSED] - Test Cases/UI Testing/Tests/Login Test/User should login successfully with a valid account: Test Cases/UI Testing/Tests/Login Test/User should login successfully with a valid account
+
+2022-08-20 10:17:23 - [TEST_STEP][ERROR] - Start listener action : beforeTestcase: groovy.lang.MissingPropertyException: No such property: url for class: internal.GlobalVariable
+	at TestListener.beforeTestcase(TestListener.groovy:38)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1660961833336.run(TempTestSuite1660961833336.groovy:36)
+
+
+2022-08-20 10:17:23 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("API Testing")): null
+
+2022-08-20 10:17:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-20 10:17:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-20 10:17:24 - [MESSAGE][INFO] - Action delay is set to 500 milliseconds
+
+2022-08-20 10:17:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-20 10:17:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-08-20 10:17:27 - [MESSAGE][PASSED] - Current window maximized
+
+2022-08-20 10:17:27 - [TEST_STEP][ERROR] - navigateToUrl(url): groovy.lang.MissingPropertyException: No such property: url for class: internal.GlobalVariable
+	at TestListener.beforeTestcase(TestListener.groovy:38)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1660961833336.run(TempTestSuite1660961833336.groovy:36)
+
+
+2022-08-20 10:17:27 - [MESSAGE][ERROR] - groovy.lang.MissingPropertyException: No such property: url for class: internal.GlobalVariable
+	at TestListener.beforeTestcase(TestListener.groovy:38)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1660961833336.run(TempTestSuite1660961833336.groovy:36)
+
+
+2022-08-20 10:17:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UI Testing/Pages/Open Browser/Open the Login page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UI Testing/Pages/Open Browser/Open the Login page' successfully
+
+2022-08-20 10:17:27 - [TEST_CASE][PASSED] - Test Cases/UI Testing/Pages/Open Browser/Open the Login page: Test Cases/UI Testing/Pages/Open Browser/Open the Login page
+
+2022-08-20 10:17:28 - [TEST_STEP][PASSED] - openBrowser(LoginUrl): Browser is opened with url: 'http://localhost:8080/login.jsp'
+
+2022-08-20 10:17:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-08-20 10:17:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-20 10:17:28 - [MESSAGE][INFO] - Action delay is set to 500 milliseconds
+
+2022-08-20 10:17:31 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:8080/login.jsp'
+
+2022-08-20 10:17:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UI Testing/Pages/Open Browser/Open the Login page' successfully
+
+2022-08-20 10:17:31 - [TEST_STEP][PASSED] - verifyTextPresent("Welcome to JIRA", false): Text 'Welcome to JIRA' is present on page 
+
+2022-08-20 10:17:31 - [MESSAGE][PASSED] - Text 'Welcome to JIRA' is present on page 
+
+2022-08-20 10:17:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UI Testing/Pages/Login Page/Login with username and password"), ["username":LoginUsername, "password":LoginPassword], STOP_ON_FAILURE): Call Test Case 'Test Cases/UI Testing/Pages/Login Page/Login with username and password' successfully
+
+2022-08-20 10:17:31 - [TEST_CASE][PASSED] - Test Cases/UI Testing/Pages/Login Page/Login with username and password: Test Cases/UI Testing/Pages/Login Page/Login with username and password
+
+2022-08-20 10:17:32 - [TEST_STEP][PASSED] - setText(findTestObject("UI Test Objects/Pages/Login Page/elUsername"), username): Text 'admin' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elUsername'
+
+2022-08-20 10:17:33 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elUsername'
+
+2022-08-20 10:17:33 - [TEST_STEP][PASSED] - setText(findTestObject("UI Test Objects/Pages/Login Page/elPassword"), password): Text 'admin@123' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword'
+
+2022-08-20 10:17:35 - [MESSAGE][PASSED] - Text 'admin@123' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword'
+
+2022-08-20 10:17:35 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Objects/Pages/Login Page/elLogin")): Object: 'Object Repository/UI Test Objects/Pages/Login Page/elLogin' is clicked on
+
+2022-08-20 10:17:37 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Objects/Pages/Login Page/elLogin' is clicked on
+
+2022-08-20 10:17:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UI Testing/Pages/Login Page/Login with username and password' successfully
+
+2022-08-20 10:17:37 - [TEST_STEP][PASSED] - verifyTextPresent("System Dashboard", false): Text 'System Dashboard' is present on page 
+
+2022-08-20 10:17:38 - [MESSAGE][PASSED] - Text 'System Dashboard' is present on page 
+
+2022-08-20 10:17:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-08-20 10:17:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-08-20 10:17:41 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2022-08-20 10:17:41 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("API Testing")): null
+
+2022-08-20 10:17:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-08-20 10:17:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI Testing/Tests/Create Issue Test/User should be able to create issue successfully" time="25.765" classname="Test Cases/UI Testing/Tests/Create Issue Test/User should be able to create issue successfully" status="PASSED">
+         <system-out><![CDATA[2022-08-20 10:17:42 - [TEST_CASE][PASSED] - Test Cases/UI Testing/Tests/Create Issue Test/User should be able to create issue successfully: Test Cases/UI Testing/Tests/Create Issue Test/User should be able to create issue successfully
+
+2022-08-20 10:17:42 - [TEST_STEP][ERROR] - Start listener action : beforeTestcase: groovy.lang.MissingPropertyException: No such property: url for class: internal.GlobalVariable
+	at TestListener.beforeTestcase(TestListener.groovy:38)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1660961833336.run(TempTestSuite1660961833336.groovy:36)
+
+
+2022-08-20 10:17:42 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("API Testing")): null
+
+2022-08-20 10:17:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-20 10:17:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-20 10:17:42 - [MESSAGE][INFO] - Action delay is set to 500 milliseconds
+
+2022-08-20 10:17:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-20 10:17:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-08-20 10:17:43 - [MESSAGE][PASSED] - Current window maximized
+
+2022-08-20 10:17:43 - [TEST_STEP][ERROR] - navigateToUrl(url): groovy.lang.MissingPropertyException: No such property: url for class: internal.GlobalVariable
+	at TestListener.beforeTestcase(TestListener.groovy:38)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1660961833336.run(TempTestSuite1660961833336.groovy:36)
+
+
+2022-08-20 10:17:43 - [MESSAGE][ERROR] - groovy.lang.MissingPropertyException: No such property: url for class: internal.GlobalVariable
+	at TestListener.beforeTestcase(TestListener.groovy:38)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1660961833336.run(TempTestSuite1660961833336.groovy:36)
+
+
+2022-08-20 10:17:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UI Testing/Pages/Open Browser/Open the Login page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UI Testing/Pages/Open Browser/Open the Login page' successfully
+
+2022-08-20 10:17:43 - [TEST_CASE][PASSED] - Test Cases/UI Testing/Pages/Open Browser/Open the Login page: Test Cases/UI Testing/Pages/Open Browser/Open the Login page
+
+2022-08-20 10:17:43 - [TEST_STEP][PASSED] - openBrowser(LoginUrl): Browser is opened with url: 'http://localhost:8080/login.jsp'
+
+2022-08-20 10:17:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-08-20 10:17:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-20 10:17:44 - [MESSAGE][INFO] - Action delay is set to 500 milliseconds
+
+2022-08-20 10:17:47 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:8080/login.jsp'
+
+2022-08-20 10:17:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UI Testing/Pages/Open Browser/Open the Login page' successfully
+
+2022-08-20 10:17:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UI Testing/Pages/Login Page/Login with username and password"), ["username":LoginUsername, "password":LoginPassword], STOP_ON_FAILURE): Call Test Case 'Test Cases/UI Testing/Pages/Login Page/Login with username and password' successfully
+
+2022-08-20 10:17:47 - [TEST_CASE][PASSED] - Test Cases/UI Testing/Pages/Login Page/Login with username and password: Test Cases/UI Testing/Pages/Login Page/Login with username and password
+
+2022-08-20 10:17:47 - [TEST_STEP][PASSED] - setText(findTestObject("UI Test Objects/Pages/Login Page/elUsername"), username): Text 'admin' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elUsername'
+
+2022-08-20 10:17:48 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elUsername'
+
+2022-08-20 10:17:48 - [TEST_STEP][PASSED] - setText(findTestObject("UI Test Objects/Pages/Login Page/elPassword"), password): Text 'admin@123' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword'
+
+2022-08-20 10:17:50 - [MESSAGE][PASSED] - Text 'admin@123' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword'
+
+2022-08-20 10:17:50 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Objects/Pages/Login Page/elLogin")): Object: 'Object Repository/UI Test Objects/Pages/Login Page/elLogin' is clicked on
+
+2022-08-20 10:17:52 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Objects/Pages/Login Page/elLogin' is clicked on
+
+2022-08-20 10:17:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UI Testing/Pages/Login Page/Login with username and password' successfully
+
+2022-08-20 10:17:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UI Testing/Pages/Master Page/Open the Create Issue form"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UI Testing/Pages/Master Page/Open the Create Issue form' successfully
+
+2022-08-20 10:17:52 - [TEST_CASE][PASSED] - Test Cases/UI Testing/Pages/Master Page/Open the Create Issue form: Test Cases/UI Testing/Pages/Master Page/Open the Create Issue form
+
+2022-08-20 10:17:53 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI Test Objects/Pages/Master Page/Header/elHeaderItems", ["header_item":"Create"]), 0): Object 'Object Repository/UI Test Objects/Pages/Master Page/Header/elHeaderItems' is clickable
+
+2022-08-20 10:17:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-20 10:17:54 - [MESSAGE][PASSED] - Object 'Object Repository/UI Test Objects/Pages/Master Page/Header/elHeaderItems' is clickable
+
+2022-08-20 10:17:54 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Objects/Pages/Master Page/Header/elHeaderItems", ["header_item":"Create"])): Object: 'Object Repository/UI Test Objects/Pages/Master Page/Header/elHeaderItems' is clicked on
+
+2022-08-20 10:17:55 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Objects/Pages/Master Page/Header/elHeaderItems' is clicked on
+
+2022-08-20 10:17:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UI Testing/Pages/Master Page/Open the Create Issue form' successfully
+
+2022-08-20 10:17:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UI Testing/Pages/Create Issue Page/Create a new issue with these information"), ["summary":"Demo summary"], STOP_ON_FAILURE): Call Test Case 'Test Cases/UI Testing/Pages/Create Issue Page/Create a new issue with these information' successfully
+
+2022-08-20 10:17:55 - [TEST_CASE][PASSED] - Test Cases/UI Testing/Pages/Create Issue Page/Create a new issue with these information: Test Cases/UI Testing/Pages/Create Issue Page/Create a new issue with these information
+
+2022-08-20 10:17:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI Test Objects/Pages/Create Issue Page/elRoot"), ElementTimeout): Object 'Object Repository/UI Test Objects/Pages/Create Issue Page/elRoot' is visible
+
+2022-08-20 10:17:57 - [MESSAGE][PASSED] - Object 'Object Repository/UI Test Objects/Pages/Create Issue Page/elRoot' is visible
+
+2022-08-20 10:17:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI Test Objects/Pages/Create Issue Page/elTitle"), "Create Issue"): Actual text and expected text of test object 'Object Repository/UI Test Objects/Pages/Create Issue Page/elTitle' are matched.
+
+2022-08-20 10:17:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI Test Objects/Pages/Create Issue Page/elTitle' are matched.
+
+2022-08-20 10:17:57 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI Test Objects/Pages/Create Issue Page/elSummary"), ElementTimeout): Object 'Object Repository/UI Test Objects/Pages/Create Issue Page/elSummary' is clickable
+
+2022-08-20 10:17:58 - [MESSAGE][PASSED] - Object 'Object Repository/UI Test Objects/Pages/Create Issue Page/elSummary' is clickable
+
+2022-08-20 10:17:58 - [TEST_STEP][PASSED] - setText(findTestObject("UI Test Objects/Pages/Create Issue Page/elSummary"), summary): Text 'Demo summary' is set on object 'Object Repository/UI Test Objects/Pages/Create Issue Page/elSummary'
+
+2022-08-20 10:17:59 - [MESSAGE][PASSED] - Text 'Demo summary' is set on object 'Object Repository/UI Test Objects/Pages/Create Issue Page/elSummary'
+
+2022-08-20 10:17:59 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI Test Objects/Pages/Create Issue Page/elCreate"), ElementTimeout): Object 'Object Repository/UI Test Objects/Pages/Create Issue Page/elCreate' is clickable
+
+2022-08-20 10:18:00 - [MESSAGE][PASSED] - Object 'Object Repository/UI Test Objects/Pages/Create Issue Page/elCreate' is clickable
+
+2022-08-20 10:18:00 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Objects/Pages/Create Issue Page/elCreate")): Object: 'Object Repository/UI Test Objects/Pages/Create Issue Page/elCreate' is clicked on
+
+2022-08-20 10:18:01 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Objects/Pages/Create Issue Page/elCreate' is clicked on
+
+2022-08-20 10:18:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI Test Objects/Pages/Master Page/elFlag")): Object 'Object Repository/UI Test Objects/Pages/Master Page/elFlag' is visible
+
+2022-08-20 10:18:02 - [MESSAGE][PASSED] - Object 'Object Repository/UI Test Objects/Pages/Master Page/elFlag' is visible
+
+2022-08-20 10:18:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UI Testing/Pages/Create Issue Page/Create a new issue with these information' successfully
+
+2022-08-20 10:18:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-08-20 10:18:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-08-20 10:18:05 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2022-08-20 10:18:05 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("API Testing")): null
+
+2022-08-20 10:18:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-08-20 10:18:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI Testing/Tests/Search Issue Test/User should be able to search and verify issue content" time="34.613" classname="Test Cases/UI Testing/Tests/Search Issue Test/User should be able to search and verify issue content" status="PASSED">
+         <system-out><![CDATA[2022-08-20 10:18:07 - [TEST_CASE][PASSED] - Test Cases/UI Testing/Tests/Search Issue Test/User should be able to search and verify issue content: Test Cases/UI Testing/Tests/Search Issue Test/User should be able to search and verify issue content
+
+2022-08-20 10:18:07 - [TEST_STEP][ERROR] - Start listener action : beforeTestcase: groovy.lang.MissingPropertyException: No such property: url for class: internal.GlobalVariable
+	at TestListener.beforeTestcase(TestListener.groovy:38)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1660961833336.run(TempTestSuite1660961833336.groovy:36)
+
+
+2022-08-20 10:18:07 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("API Testing")): null
+
+2022-08-20 10:18:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-20 10:18:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-20 10:18:07 - [MESSAGE][INFO] - Action delay is set to 500 milliseconds
+
+2022-08-20 10:18:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-20 10:18:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-08-20 10:18:09 - [MESSAGE][PASSED] - Current window maximized
+
+2022-08-20 10:18:09 - [TEST_STEP][ERROR] - navigateToUrl(url): groovy.lang.MissingPropertyException: No such property: url for class: internal.GlobalVariable
+	at TestListener.beforeTestcase(TestListener.groovy:38)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1660961833336.run(TempTestSuite1660961833336.groovy:36)
+
+
+2022-08-20 10:18:09 - [MESSAGE][ERROR] - groovy.lang.MissingPropertyException: No such property: url for class: internal.GlobalVariable
+	at TestListener.beforeTestcase(TestListener.groovy:38)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1660961833336.run(TempTestSuite1660961833336.groovy:36)
+
+
+2022-08-20 10:18:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UI Testing/Pages/Open Browser/Open the Login page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UI Testing/Pages/Open Browser/Open the Login page' successfully
+
+2022-08-20 10:18:10 - [TEST_CASE][PASSED] - Test Cases/UI Testing/Pages/Open Browser/Open the Login page: Test Cases/UI Testing/Pages/Open Browser/Open the Login page
+
+2022-08-20 10:18:10 - [TEST_STEP][PASSED] - openBrowser(LoginUrl): Browser is opened with url: 'http://localhost:8080/login.jsp'
+
+2022-08-20 10:18:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-08-20 10:18:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-20 10:18:10 - [MESSAGE][INFO] - Action delay is set to 500 milliseconds
+
+2022-08-20 10:18:13 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:8080/login.jsp'
+
+2022-08-20 10:18:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UI Testing/Pages/Open Browser/Open the Login page' successfully
+
+2022-08-20 10:18:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UI Testing/Pages/Login Page/Login with username and password"), ["username":LoginUsername, "password":LoginPassword], STOP_ON_FAILURE): Call Test Case 'Test Cases/UI Testing/Pages/Login Page/Login with username and password' successfully
+
+2022-08-20 10:18:13 - [TEST_CASE][PASSED] - Test Cases/UI Testing/Pages/Login Page/Login with username and password: Test Cases/UI Testing/Pages/Login Page/Login with username and password
+
+2022-08-20 10:18:13 - [TEST_STEP][PASSED] - setText(findTestObject("UI Test Objects/Pages/Login Page/elUsername"), username): Text 'admin' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elUsername'
+
+2022-08-20 10:18:15 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elUsername'
+
+2022-08-20 10:18:15 - [TEST_STEP][PASSED] - setText(findTestObject("UI Test Objects/Pages/Login Page/elPassword"), password): Text 'admin@123' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword'
+
+2022-08-20 10:18:17 - [MESSAGE][PASSED] - Text 'admin@123' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword'
+
+2022-08-20 10:18:17 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Objects/Pages/Login Page/elLogin")): Object: 'Object Repository/UI Test Objects/Pages/Login Page/elLogin' is clicked on
+
+2022-08-20 10:18:19 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Objects/Pages/Login Page/elLogin' is clicked on
+
+2022-08-20 10:18:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UI Testing/Pages/Login Page/Login with username and password' successfully
+
+2022-08-20 10:18:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UI Testing/Pages/Master Page/Open the Search for issue page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UI Testing/Pages/Master Page/Open the Search for issue page' successfully
+
+2022-08-20 10:18:19 - [TEST_CASE][PASSED] - Test Cases/UI Testing/Pages/Master Page/Open the Search for issue page: Test Cases/UI Testing/Pages/Master Page/Open the Search for issue page
+
+2022-08-20 10:18:19 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI Test Objects/Pages/Master Page/Header/elHeaderItems", ["header_item":"Issues"]), ElementTimeout): Object 'Object Repository/UI Test Objects/Pages/Master Page/Header/elHeaderItems' is clickable
+
+2022-08-20 10:18:20 - [MESSAGE][PASSED] - Object 'Object Repository/UI Test Objects/Pages/Master Page/Header/elHeaderItems' is clickable
+
+2022-08-20 10:18:20 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Objects/Pages/Master Page/Header/elHeaderItems", ["header_item":"Issues"])): Object: 'Object Repository/UI Test Objects/Pages/Master Page/Header/elHeaderItems' is clicked on
+
+2022-08-20 10:18:21 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Objects/Pages/Master Page/Header/elHeaderItems' is clicked on
+
+2022-08-20 10:18:21 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI Test Objects/Pages/Master Page/Header/elHeaderIssuesItems", ["issue_item":"Search for issues"]), ElementTimeout): Object 'Object Repository/UI Test Objects/Pages/Master Page/Header/elHeaderIssuesItems' is clickable
+
+2022-08-20 10:18:22 - [MESSAGE][PASSED] - Object 'Object Repository/UI Test Objects/Pages/Master Page/Header/elHeaderIssuesItems' is clickable
+
+2022-08-20 10:18:22 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Objects/Pages/Master Page/Header/elHeaderIssuesItems", ["issue_item":"Search for issues"])): Object: 'Object Repository/UI Test Objects/Pages/Master Page/Header/elHeaderIssuesItems' is clicked on
+
+2022-08-20 10:18:23 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Objects/Pages/Master Page/Header/elHeaderIssuesItems' is clicked on
+
+2022-08-20 10:18:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UI Testing/Pages/Master Page/Open the Search for issue page' successfully
+
+2022-08-20 10:18:23 - [TEST_STEP][PASSED] - issue_summary = "Demo summary": null
+
+2022-08-20 10:18:23 - [TEST_STEP][PASSED] - jql = "text~"Demo summary"": null
+
+2022-08-20 10:18:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UI Testing/Pages/Search Issue Page/Search issues using jql"), ["jql":jql], STOP_ON_FAILURE): Call Test Case 'Test Cases/UI Testing/Pages/Search Issue Page/Search issues using jql' successfully
+
+2022-08-20 10:18:24 - [TEST_CASE][PASSED] - Test Cases/UI Testing/Pages/Search Issue Page/Search issues using jql: Test Cases/UI Testing/Pages/Search Issue Page/Search issues using jql
+
+2022-08-20 10:18:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UI Testing/Pages/Search Issue Page/Open the Advance search mode"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UI Testing/Pages/Search Issue Page/Open the Advance search mode' successfully
+
+2022-08-20 10:18:24 - [TEST_CASE][PASSED] - Test Cases/UI Testing/Pages/Search Issue Page/Open the Advance search mode: Test Cases/UI Testing/Pages/Search Issue Page/Open the Advance search mode
+
+2022-08-20 10:18:24 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI Test Objects/Pages/Search Issue Page/Search Navigator/elSearchMode"), 0): Object 'Object Repository/UI Test Objects/Pages/Search Issue Page/Search Navigator/elSearchMode' is clickable
+
+2022-08-20 10:18:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-20 10:18:25 - [MESSAGE][PASSED] - Object 'Object Repository/UI Test Objects/Pages/Search Issue Page/Search Navigator/elSearchMode' is clickable
+
+2022-08-20 10:18:25 - [TEST_STEP][PASSED] - str_mode = getText(findTestObject("UI Test Objects/Pages/Search Issue Page/Search Navigator/elSearchMode")): Text of object 'Object Repository/UI Test Objects/Pages/Search Issue Page/Search Navigator/elSearchMode' is: 'Basic'
+
+2022-08-20 10:18:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI Test Objects/Pages/Search Issue Page/Search Navigator/elSearchMode' is: 'Basic'
+
+2022-08-20 10:18:25 - [TEST_STEP][PASSED] - if (str_mode.equalsIgnoreCase("Advanced")): null
+
+2022-08-20 10:18:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UI Testing/Pages/Search Issue Page/Open the Advance search mode' successfully
+
+2022-08-20 10:18:25 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI Test Objects/Pages/Search Issue Page/Search Navigator/elAdvanceSearchJQL"), ElementTimeout): Object 'Object Repository/UI Test Objects/Pages/Search Issue Page/Search Navigator/elAdvanceSearchJQL' is clickable
+
+2022-08-20 10:18:26 - [MESSAGE][PASSED] - Object 'Object Repository/UI Test Objects/Pages/Search Issue Page/Search Navigator/elAdvanceSearchJQL' is clickable
+
+2022-08-20 10:18:26 - [TEST_STEP][PASSED] - setText(findTestObject("UI Test Objects/Pages/Search Issue Page/Search Navigator/elAdvanceSearchJQL"), jql): Text 'text~"Demo summary"' is set on object 'Object Repository/UI Test Objects/Pages/Search Issue Page/Search Navigator/elAdvanceSearchJQL'
+
+2022-08-20 10:18:27 - [MESSAGE][PASSED] - Text 'text~"Demo summary"' is set on object 'Object Repository/UI Test Objects/Pages/Search Issue Page/Search Navigator/elAdvanceSearchJQL'
+
+2022-08-20 10:18:27 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI Test Objects/Pages/Search Issue Page/Search Navigator/elSearch"), ElementTimeout): Object 'Object Repository/UI Test Objects/Pages/Search Issue Page/Search Navigator/elSearch' is clickable
+
+2022-08-20 10:18:28 - [MESSAGE][PASSED] - Object 'Object Repository/UI Test Objects/Pages/Search Issue Page/Search Navigator/elSearch' is clickable
+
+2022-08-20 10:18:28 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Objects/Pages/Search Issue Page/Search Navigator/elSearch")): Object: 'Object Repository/UI Test Objects/Pages/Search Issue Page/Search Navigator/elSearch' is clicked on
+
+2022-08-20 10:18:29 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Objects/Pages/Search Issue Page/Search Navigator/elSearch' is clicked on
+
+2022-08-20 10:18:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UI Testing/Pages/Search Issue Page/Search issues using jql' successfully
+
+2022-08-20 10:18:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UI Testing/Pages/Search Issue Page/Simple Issue List/Open the issue having specified summary"), ["issue_summary":issue_summary], STOP_ON_FAILURE): Call Test Case 'Test Cases/UI Testing/Pages/Search Issue Page/Simple Issue List/Open the issue having specified summary' successfully
+
+2022-08-20 10:18:29 - [TEST_CASE][PASSED] - Test Cases/UI Testing/Pages/Search Issue Page/Simple Issue List/Open the issue having specified summary: Test Cases/UI Testing/Pages/Search Issue Page/Simple Issue List/Open the issue having specified summary
+
+2022-08-20 10:18:29 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI Test Objects/Pages/Search Issue Page/Simple Issue List/elIssueLink", ["issue_summary":issue_summary]), ElementTimeout): Object 'Object Repository/UI Test Objects/Pages/Search Issue Page/Simple Issue List/elIssueLink' is clickable
+
+2022-08-20 10:18:30 - [MESSAGE][PASSED] - Object 'Object Repository/UI Test Objects/Pages/Search Issue Page/Simple Issue List/elIssueLink' is clickable
+
+2022-08-20 10:18:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-08-20 10:18:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-08-20 10:18:33 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Objects/Pages/Search Issue Page/Simple Issue List/elIssueLink", ["issue_summary":issue_summary])): Object: 'Object Repository/UI Test Objects/Pages/Search Issue Page/Simple Issue List/elIssueLink' is clicked on
+
+2022-08-20 10:18:34 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Objects/Pages/Search Issue Page/Simple Issue List/elIssueLink' is clicked on
+
+2022-08-20 10:18:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-08-20 10:18:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-08-20 10:18:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UI Testing/Pages/Search Issue Page/Simple Issue List/Open the issue having specified summary' successfully
+
+2022-08-20 10:18:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UI Testing/Pages/Search Issue Page/Issue Content/Verify opening issue content"), ["issue_summary":issue_summary], STOP_ON_FAILURE): Call Test Case 'Test Cases/UI Testing/Pages/Search Issue Page/Issue Content/Verify opening issue content' successfully
+
+2022-08-20 10:18:37 - [TEST_CASE][PASSED] - Test Cases/UI Testing/Pages/Search Issue Page/Issue Content/Verify opening issue content: Test Cases/UI Testing/Pages/Search Issue Page/Issue Content/Verify opening issue content
+
+2022-08-20 10:18:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI Test Objects/Pages/Search Issue Page/Issue Content/elIssueSummary"), ElementTimeout): Object 'Object Repository/UI Test Objects/Pages/Search Issue Page/Issue Content/elIssueSummary' is visible
+
+2022-08-20 10:18:38 - [MESSAGE][PASSED] - Object 'Object Repository/UI Test Objects/Pages/Search Issue Page/Issue Content/elIssueSummary' is visible
+
+2022-08-20 10:18:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI Test Objects/Pages/Search Issue Page/Issue Content/elIssueSummary"), issue_summary): Actual text and expected text of test object 'Object Repository/UI Test Objects/Pages/Search Issue Page/Issue Content/elIssueSummary' are matched.
+
+2022-08-20 10:18:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI Test Objects/Pages/Search Issue Page/Issue Content/elIssueSummary' are matched.
+
+2022-08-20 10:18:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UI Testing/Pages/Search Issue Page/Issue Content/Verify opening issue content' successfully
+
+2022-08-20 10:18:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-08-20 10:18:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-08-20 10:18:41 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2022-08-20 10:18:41 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("API Testing")): null
+
+2022-08-20 10:18:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-08-20 10:18:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-08-20 10:17:23 - [TEST_SUITE][PASSED] - Successful tests: Test Cases/UI Testing/Tests/Search Issue Test/User should be able to search and verify issue content]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
