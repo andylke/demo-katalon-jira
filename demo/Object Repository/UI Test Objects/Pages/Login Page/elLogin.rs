@@ -7,10 +7,14 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//input[@value = 'Log In']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value = 'Log In']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>4e39ddfa-a6e6-4e7b-98ea-5c0df168c96e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -25,5 +30,6 @@
       <name>value</name>
       <type>Main</type>
       <value>Log In</value>
+      <webElementGuid>4092b781-9428-47c0-ac77-24bb780614d4</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

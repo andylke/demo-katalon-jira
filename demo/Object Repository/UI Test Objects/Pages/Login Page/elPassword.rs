@@ -7,10 +7,14 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//input[@id=//label[.='Password']/@for]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id=//label[.='Password']/@for]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,5 +22,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//input[@id=//label[.='Password']/@for]</value>
+      <webElementGuid>39e9cecf-7669-4210-bb57-b7ead2674bd8</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
